@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 .main{
     display: table;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px; 
+    border-spacing: 20px;   
 }
 .header{
     display: table-row;
@@ -10,15 +12,14 @@
 .head_text{
     font-size: larger;
 }
-.list{
+nav li{
     float: right;   
-    height: 30px;
-    gap: 20px;
-}
-button{
-    border: 1px solid gray;
+    list-style: none;
+    height: 15px;
+    border: black solid 3px;
+    padding: 10px;
+    margin: 0 0 0 20px;
     border-radius: 30px;
-    background-color: white;   
 }
 #choice_btn{
     background-color: black;
@@ -58,7 +59,7 @@ button{
 }
 .head_text_point, .head_img_point{
     display: table-cell;
-    height: 50px;
+    height: 100px;
 }
 .none{
     height: 60%;
@@ -70,4 +71,7 @@ button{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;   
+}
+p, h1{
+    font-family: 'Inter', sans-serif;
 }
