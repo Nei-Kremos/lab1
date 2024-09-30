@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+.main{
+    display: table;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px; 
+    border-spacing: 20px;
+    width: 100%;
+}
+.header{
+    display: table-row;
+}
+.head_text{
+    font-size: larger;
+}
+nav li{
+    float: right;   
+    list-style: none;
+    height: 15px;
+    border: black solid 3px;
+    padding: 10px;
+    margin: 0 0 0 20px;
+    border-radius: 30px;
+}
+#choice_btn{
+    background-color: black;
+    color: white;
+}
+.selection_h1{
+    padding: 0px 200px 0px 200px;
+}
+.selection_h2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px; 
+}
+.sel_point{
+    display: table;
+    width: 400px;
+    height: 450px;   
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#color_1{
+    background: linear-gradient(135deg, #FFC95D, #FC7C05);
+    color: white;
+    
+}
+#color_2{
+    background: linear-gradient(135deg, #BE67D9, #5E27FC);
+    color: white;
+}
+.sel_point_head, .none, .sel_point_foot{
+    display: table-row;
+}
+.head_text_point, .head_img_point{
+    display: table-cell;
+    height: 100px;
+}
+.none{
+    height: 60%;
+}
+.footer{
+    display: table-row;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;   
+}
+p, h1{
+    font-family: 'Inter', sans-serif;
+}
